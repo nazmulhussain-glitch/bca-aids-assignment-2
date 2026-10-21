@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <header class="hero">
+        <h1>Nazmul Hussain</h1>
+        <p>BCA AI & Data Science Student</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <hr>
+            <img src="profile.jpg" alt="Profile photo of Nazmul Hussain" class="profile-img">
+            <p>Hello! I am Nazmul Hussain, a BCA student interested in Artificial Intelligence, Data Science, and programming. I enjoy learning new technologies and developing useful projects.</p>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>My Projects</h2>
+            <hr>
+            <article class="project">
+                <h3>Python Calculator</h3>
+                <p>A simple calculator that performs basic arithmetic operations using Python.</p>
+            </article>
+            <article class="project">
+                <h3>Personal Portfolio</h3>
+                <p>A responsive portfolio website built using HTML and external CSS.</p>
+            </article>
+            <article class="project">
+                <h3>Student Record System</h3>
+                <p>A beginner project for storing and displaying student information.</p>
+            </article>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>My Technical Skills</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Skill Level</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>HTML</td><td>Beginner</td><td>Web Structure</td></tr>
+                    <tr><td>CSS</td><td>Beginner</td><td>Web Styling</td></tr>
+                    <tr><td>Python</td><td>Beginner</td><td>Programming</td></tr>
+                    <tr><td>C</td><td>Beginner</td><td>Problem Solving</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <hr>
+            <form action="#" method="get">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nazmul Hussain | Personal Portfolio</p>
+        <p>Designed using HTML and CSS</p>
+    </footer>
+
+    <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+
+</body>
+</html>
